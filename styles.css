@@ -1,10 +1,13 @@
 /*  your css code here. If applicable */
 .element::before {
-	content: Before Element;
-	display: inline-block;
-	
+	content: "Before Element ";
+	display: inline;
+	color: rgb(255,0,0);
+	font-size: 25px;
 }
 .element::after {
-	content: After Element;
+	content: " After Element";
 	display: inline;
+	color: rgb(255,0,0);
+	font-size: 25px;
 }
